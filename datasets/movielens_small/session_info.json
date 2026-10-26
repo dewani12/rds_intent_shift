@@ -1,0 +1,14 @@
+{
+  "dataset": "movielens-1m",
+  "num_of_user": 6038,
+  "num_of_item[not include 0]": 3062,
+  "num_of_category": 18,
+  "min_session_len": 2,
+  "max_session_len": 50,
+  "min_occurrences": 5,
+  "train_size": 0.8,
+  "Total number of session after enhancement": 236895,
+  "Total number of train session": 5000,
+  "Total number of test session": 1000,
+  "beizhu": "movielens-small-demo"
+}

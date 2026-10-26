@@ -1,0 +1,7 @@
+************ seed ***********: 2024
+----------------------------------- Start Loading data... @ 2026-10-26 13:49:09.165907 -----------------------------------
+---------------------------------------------Finish Loading data... @ 2026-10-26 13:49:09.725854s ---------------------------------------------
+opt.dataset:  movielens
+epoch: 0
+start training: 2026-10-26 13:49:12.160243
+[TRAIN]  [0/2369] epoch: 0  current batch loss: 22.3165 (avg 22.3165),current batch_loss_click: 8.0357 (avg 8.0357),current batch_loss_catgy: 7.1211 (avg 7.1211),  one batch: 1.0214 s,  train time: 0.0170 min

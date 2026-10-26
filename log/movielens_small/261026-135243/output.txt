@@ -1,0 +1,291 @@
+************ seed ***********: 2024
+----------------------------------- Start Loading data... @ 2026-10-26 13:52:43.429459 -----------------------------------
+---------------------------------------------Finish Loading data... @ 2026-10-26 13:52:43.440007s ---------------------------------------------
+opt.dataset:  movielens_small
+epoch: 0
+start training: 2026-10-26 13:52:44.818265
+[TRAIN]  [0/63] epoch: 0  current batch loss: 15.5411 (avg 15.5411),current batch_loss_click: 8.0217 (avg 8.0217),current batch_loss_catgy: 3.7410 (avg 3.7410),  one batch: 0.1798 s,  train time: 0.0030 min
+[TRAIN]  [13/63] epoch: 0  current batch loss: 11.9817 (avg 13.2061),current batch_loss_click: 8.0004 (avg 8.0072),current batch_loss_catgy: 1.9742 (avg 2.5821),  one batch: 0.2183 s,  train time: 0.0473 min
+[TRAIN]  [26/63] epoch: 0  current batch loss: 12.3011 (avg 12.6824),current batch_loss_click: 7.8895 (avg 7.9748),current batch_loss_catgy: 2.1871 (avg 2.3373),  one batch: 0.2980 s,  train time: 0.0646 min
+[TRAIN]  [39/63] epoch: 0  current batch loss: 11.5831 (avg 12.4829),current batch_loss_click: 7.6408 (avg 7.9128),current batch_loss_catgy: 1.9363 (avg 2.2660),  one batch: 0.2937 s,  train time: 0.0636 min
+[TRAIN]  [52/63] epoch: 0  current batch loss: 12.0440 (avg 12.2401),current batch_loss_click: 7.2961 (avg 7.7811),current batch_loss_catgy: 2.2825 (avg 2.2007),  one batch: 0.3035 s,  train time: 0.0658 min
+	Epoch Loss mean:	12.082,  finish one epoch@  2026-10-26 13:53:02.284163s , training time:  0.2911 min
+
+
+Current Result Epoch 0:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+5.9180	11.3477	19.8438	22.1484	24.9414	28.7109	32.8320	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+1.6575	2.0401	2.3331	2.3839	2.4349	2.4890	2.5349	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+2.6455	4.0257	5.7531	6.1695	6.6507	7.2643	7.8977	
+AUC@50	AUC@100	AUC@200	AUC@500	
+86.7477	86.7414	86.7806	86.7600	
+epoch: 1
+start training: 2026-10-26 13:53:05.229116
+[TRAIN]  [0/63] epoch: 1  current batch loss: 10.7787 (avg 10.7787),current batch_loss_click: 6.7924 (avg 6.7924),current batch_loss_catgy: 1.8711 (avg 1.8711),  one batch: 0.2334 s,  train time: 0.0039 min
+[TRAIN]  [13/63] epoch: 1  current batch loss: 10.5773 (avg 10.8687),current batch_loss_click: 6.5592 (avg 6.6643),current batch_loss_catgy: 1.9032 (avg 1.9837),  one batch: 0.2778 s,  train time: 0.0602 min
+[TRAIN]  [26/63] epoch: 1  current batch loss: 10.8134 (avg 10.7680),current batch_loss_click: 6.8221 (avg 6.6318),current batch_loss_catgy: 1.8932 (avg 1.9573),  one batch: 0.2870 s,  train time: 0.0622 min
+[TRAIN]  [39/63] epoch: 1  current batch loss: 11.1663 (avg 10.7768),current batch_loss_click: 6.6967 (avg 6.6242),current batch_loss_catgy: 2.1429 (avg 1.9695),  one batch: 0.2971 s,  train time: 0.0644 min
+[TRAIN]  [52/63] epoch: 1  current batch loss: 10.8337 (avg 10.7759),current batch_loss_click: 6.5253 (avg 6.6377),current batch_loss_catgy: 2.0649 (avg 1.9666),  one batch: 0.3153 s,  train time: 0.0683 min
+	Epoch Loss mean:	10.764,  finish one epoch@  2026-10-26 13:53:24.814980s , training time:  0.3264 min
+
+
+Current Result Epoch 1:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+7.8125	13.6719	22.4609	25.4688	27.7344	32.3438	37.4805	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+2.2487	2.6494	2.9609	3.0282	3.0682	3.1334	3.1899	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+3.5319	5.0066	6.8071	7.3525	7.7398	8.4871	9.2746	
+AUC@50	AUC@100	AUC@200	AUC@500	
+88.1703	88.0980	88.2048	88.1289	
+epoch: 2
+start training: 2026-10-26 13:53:30.205009
+[TRAIN]  [0/63] epoch: 2  current batch loss: 10.8710 (avg 10.8710),current batch_loss_click: 6.4807 (avg 6.4807),current batch_loss_catgy: 2.1023 (avg 2.1023),  one batch: 0.2907 s,  train time: 0.0048 min
+[TRAIN]  [13/63] epoch: 2  current batch loss: 10.5352 (avg 10.4778),current batch_loss_click: 6.4429 (avg 6.4475),current batch_loss_catgy: 1.9396 (avg 1.9176),  one batch: 0.3135 s,  train time: 0.0679 min
+[TRAIN]  [26/63] epoch: 2  current batch loss: 10.6781 (avg 10.4689),current batch_loss_click: 6.5207 (avg 6.4478),current batch_loss_catgy: 1.9970 (avg 1.9111),  one batch: 0.3310 s,  train time: 0.0717 min
+[TRAIN]  [39/63] epoch: 2  current batch loss: 10.5735 (avg 10.4723),current batch_loss_click: 6.5311 (avg 6.4593),current batch_loss_catgy: 1.9266 (avg 1.9105),  one batch: 0.3090 s,  train time: 0.0670 min
+[TRAIN]  [52/63] epoch: 2  current batch loss: 9.8527 (avg 10.4539),current batch_loss_click: 6.1266 (avg 6.4583),current batch_loss_catgy: 1.7677 (avg 1.9041),  one batch: 0.3221 s,  train time: 0.0698 min
+	Epoch Loss mean:	10.425,  finish one epoch@  2026-10-26 13:53:50.181865s , training time:  0.3329 min
+
+
+Current Result Epoch 2:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+7.8711	14.4336	22.6172	26.1328	27.9883	33.5742	38.3789	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+2.4137	2.8643	3.1584	3.2363	3.2711	3.3512	3.4047	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+3.6757	5.3286	7.0113	7.6472	7.9691	8.8778	9.6161	
+AUC@50	AUC@100	AUC@200	AUC@500	
+87.9793	88.1469	88.1795	88.2891	
+epoch: 3
+start training: 2026-10-26 13:53:53.450891
+[TRAIN]  [0/63] epoch: 3  current batch loss: 10.6145 (avg 10.6145),current batch_loss_click: 6.3146 (avg 6.3146),current batch_loss_catgy: 2.0655 (avg 2.0655),  one batch: 0.2723 s,  train time: 0.0045 min
+[TRAIN]  [13/63] epoch: 3  current batch loss: 10.7103 (avg 10.3346),current batch_loss_click: 6.4637 (avg 6.3773),current batch_loss_catgy: 2.0287 (avg 1.8884),  one batch: 0.3040 s,  train time: 0.0659 min
+[TRAIN]  [26/63] epoch: 3  current batch loss: 10.5236 (avg 10.4105),current batch_loss_click: 6.3069 (avg 6.3651),current batch_loss_catgy: 2.0180 (avg 1.9314),  one batch: 0.2983 s,  train time: 0.0646 min
+[TRAIN]  [39/63] epoch: 3  current batch loss: 10.0179 (avg 10.3853),current batch_loss_click: 6.3659 (avg 6.3793),current batch_loss_catgy: 1.7393 (avg 1.9129),  one batch: 0.3098 s,  train time: 0.0671 min
+[TRAIN]  [52/63] epoch: 3  current batch loss: 9.6334 (avg 10.2927),current batch_loss_click: 6.2463 (avg 6.3704),current batch_loss_catgy: 1.6125 (avg 1.8717),  one batch: 0.2888 s,  train time: 0.0626 min
+	Epoch Loss mean:	10.251,  finish one epoch@  2026-10-26 13:54:12.160358s , training time:  0.3118 min
+
+
+Current Result Epoch 3:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+8.6328	14.5508	23.5742	26.6992	29.9023	34.1211	39.7070	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+2.8401	3.2294	3.5530	3.6230	3.6810	3.7420	3.8040	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+4.1857	5.6553	7.5090	8.0756	8.6267	9.3143	10.1723	
+AUC@50	AUC@100	AUC@200	AUC@500	
+89.0246	88.9328	88.8649	88.8125	
+epoch: 4
+start training: 2026-10-26 13:54:15.184170
+[TRAIN]  [0/63] epoch: 4  current batch loss: 10.7707 (avg 10.7707),current batch_loss_click: 6.4489 (avg 6.4489),current batch_loss_catgy: 2.0617 (avg 2.0617),  one batch: 0.2998 s,  train time: 0.0050 min
+[TRAIN]  [13/63] epoch: 4  current batch loss: 9.9223 (avg 10.2828),current batch_loss_click: 6.2775 (avg 6.3212),current batch_loss_catgy: 1.7346 (avg 1.8942),  one batch: 0.3046 s,  train time: 0.0660 min
+[TRAIN]  [26/63] epoch: 4  current batch loss: 10.6301 (avg 10.2329),current batch_loss_click: 6.4634 (avg 6.3146),current batch_loss_catgy: 1.9974 (avg 1.8712),  one batch: 0.2980 s,  train time: 0.0646 min
+[TRAIN]  [39/63] epoch: 4  current batch loss: 10.7128 (avg 10.2259),current batch_loss_click: 6.6474 (avg 6.3190),current batch_loss_catgy: 1.9360 (avg 1.8645),  one batch: 0.2984 s,  train time: 0.0647 min
+[TRAIN]  [52/63] epoch: 4  current batch loss: 9.8675 (avg 10.1639),current batch_loss_click: 6.2680 (avg 6.3120),current batch_loss_catgy: 1.7066 (avg 1.8374),  one batch: 0.2859 s,  train time: 0.0619 min
+	Epoch Loss mean:	10.147,  finish one epoch@  2026-10-26 13:54:33.775262s , training time:  0.3098 min
+
+
+Current Result Epoch 4:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+8.9453	15.4492	25.1563	27.7539	31.1914	35.3125	40.0195	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+2.7609	3.1834	3.5205	3.5784	3.6402	3.6979	3.7502	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+4.1842	5.7923	7.7681	8.2385	8.8288	9.4956	10.2186	
+AUC@50	AUC@100	AUC@200	AUC@500	
+89.2879	89.2010	89.1643	89.1179	
+epoch: 5
+start training: 2026-10-26 13:54:36.857242
+[TRAIN]  [0/63] epoch: 5  current batch loss: 10.1703 (avg 10.1703),current batch_loss_click: 6.3920 (avg 6.3920),current batch_loss_catgy: 1.8108 (avg 1.8108),  one batch: 0.4505 s,  train time: 0.0075 min
+[TRAIN]  [13/63] epoch: 5  current batch loss: 9.8190 (avg 10.0665),current batch_loss_click: 6.1085 (avg 6.2652),current batch_loss_catgy: 1.7622 (avg 1.8129),  one batch: 0.2963 s,  train time: 0.0642 min
+[TRAIN]  [26/63] epoch: 5  current batch loss: 9.5571 (avg 10.0420),current batch_loss_click: 5.9139 (avg 6.2312),current batch_loss_catgy: 1.7459 (avg 1.8181),  one batch: 0.2990 s,  train time: 0.0648 min
+[TRAIN]  [39/63] epoch: 5  current batch loss: 10.0576 (avg 10.0919),current batch_loss_click: 6.3579 (avg 6.2482),current batch_loss_catgy: 1.7638 (avg 1.8350),  one batch: 0.3010 s,  train time: 0.0652 min
+[TRAIN]  [52/63] epoch: 5  current batch loss: 10.4967 (avg 10.0999),current batch_loss_click: 6.2235 (avg 6.2674),current batch_loss_catgy: 2.0680 (avg 1.8300),  one batch: 0.2936 s,  train time: 0.0636 min
+	Epoch Loss mean:	10.055,  finish one epoch@  2026-10-26 13:54:55.782709s , training time:  0.3154 min
+
+
+Current Result Epoch 5:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+8.7695	15.7227	24.3359	28.3594	31.5625	35.7422	40.8984	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+2.7848	3.2473	3.5512	3.6416	3.6996	3.7581	3.8157	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+4.1597	5.8921	7.6541	8.3843	8.9351	9.6115	10.4044	
+AUC@50	AUC@100	AUC@200	AUC@500	
+89.1637	89.2447	89.2572	89.2028	
+epoch: 6
+start training: 2026-10-26 13:54:58.943748
+[TRAIN]  [0/63] epoch: 6  current batch loss: 9.3231 (avg 9.3231),current batch_loss_click: 6.1592 (avg 6.1592),current batch_loss_catgy: 1.4927 (avg 1.4927),  one batch: 0.2540 s,  train time: 0.0042 min
+[TRAIN]  [13/63] epoch: 6  current batch loss: 10.2583 (avg 10.0347),current batch_loss_click: 6.1530 (avg 6.1702),current batch_loss_catgy: 1.9798 (avg 1.8435),  one batch: 0.2996 s,  train time: 0.0649 min
+[TRAIN]  [26/63] epoch: 6  current batch loss: 9.2771 (avg 9.9636),current batch_loss_click: 5.9687 (avg 6.2056),current batch_loss_catgy: 1.5551 (avg 1.7891),  one batch: 0.2938 s,  train time: 0.0637 min
+[TRAIN]  [39/63] epoch: 6  current batch loss: 10.0668 (avg 9.9605),current batch_loss_click: 6.1925 (avg 6.2023),current batch_loss_catgy: 1.8486 (avg 1.7876),  one batch: 0.3024 s,  train time: 0.0655 min
+[TRAIN]  [52/63] epoch: 6  current batch loss: 10.0064 (avg 9.9618),current batch_loss_click: 6.2679 (avg 6.2087),current batch_loss_catgy: 1.7874 (avg 1.7862),  one batch: 0.2976 s,  train time: 0.0645 min
+	Epoch Loss mean:	9.984,  finish one epoch@  2026-10-26 13:55:17.820257s , training time:  0.3146 min
+
+
+Current Result Epoch 6:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+8.9258	16.6211	25.7227	29.5117	31.3672	35.7617	41.0547	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+2.8732	3.3715	3.6810	3.7649	3.7992	3.8630	3.9221	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+4.2800	6.1815	8.0240	8.7092	9.0299	9.7466	10.5606	
+AUC@50	AUC@100	AUC@200	AUC@500	
+89.4113	89.2703	89.3503	89.3402	
+epoch: 7
+start training: 2026-10-26 13:55:20.983532
+[TRAIN]  [0/63] epoch: 7  current batch loss: 9.7638 (avg 9.7638),current batch_loss_click: 6.0964 (avg 6.0964),current batch_loss_catgy: 1.7599 (avg 1.7599),  one batch: 0.2431 s,  train time: 0.0041 min
+[TRAIN]  [13/63] epoch: 7  current batch loss: 10.7994 (avg 9.9242),current batch_loss_click: 6.1630 (avg 6.1374),current batch_loss_catgy: 2.2366 (avg 1.8071),  one batch: 0.3011 s,  train time: 0.0652 min
+[TRAIN]  [26/63] epoch: 7  current batch loss: 10.1656 (avg 9.9969),current batch_loss_click: 6.2766 (avg 6.1502),current batch_loss_catgy: 1.8456 (avg 1.8343),  one batch: 0.2957 s,  train time: 0.0641 min
+[TRAIN]  [39/63] epoch: 7  current batch loss: 9.4194 (avg 9.9893),current batch_loss_click: 6.0334 (avg 6.1553),current batch_loss_catgy: 1.6007 (avg 1.8266),  one batch: 0.3007 s,  train time: 0.0652 min
+[TRAIN]  [52/63] epoch: 7  current batch loss: 8.4251 (avg 9.9120),current batch_loss_click: 5.8056 (avg 6.1573),current batch_loss_catgy: 1.2292 (avg 1.7879),  one batch: 0.3004 s,  train time: 0.0651 min
+	Epoch Loss mean:	9.918,  finish one epoch@  2026-10-26 13:55:39.729150s , training time:  0.3124 min
+
+
+Current Result Epoch 7:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+9.1016	16.9141	26.8164	30.2930	32.4023	36.9922	40.9180	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+3.2610	3.7620	4.0960	4.1725	4.2107	4.2757	4.3196	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+4.6166	6.5398	8.5398	9.1675	9.5304	10.2747	10.8788	
+AUC@50	AUC@100	AUC@200	AUC@500	
+89.4266	89.4248	89.4274	89.4013	
+epoch: 8
+start training: 2026-10-26 13:55:43.757631
+[TRAIN]  [0/63] epoch: 8  current batch loss: 9.4975 (avg 9.4975),current batch_loss_click: 5.9693 (avg 5.9693),current batch_loss_catgy: 1.6827 (avg 1.6827),  one batch: 0.2911 s,  train time: 0.0049 min
+[TRAIN]  [13/63] epoch: 8  current batch loss: 9.6423 (avg 9.7601),current batch_loss_click: 6.0670 (avg 6.0726),current batch_loss_catgy: 1.6894 (avg 1.7501),  one batch: 0.3513 s,  train time: 0.0761 min
+[TRAIN]  [26/63] epoch: 8  current batch loss: 9.7658 (avg 9.7767),current batch_loss_click: 6.1546 (avg 6.0761),current batch_loss_catgy: 1.7102 (avg 1.7575),  one batch: 0.3418 s,  train time: 0.0740 min
+[TRAIN]  [39/63] epoch: 8  current batch loss: 9.5279 (avg 9.8340),current batch_loss_click: 6.0037 (avg 6.0724),current batch_loss_catgy: 1.6661 (avg 1.7888),  one batch: 0.3029 s,  train time: 0.0656 min
+[TRAIN]  [52/63] epoch: 8  current batch loss: 10.4418 (avg 9.8592),current batch_loss_click: 6.2123 (avg 6.1071),current batch_loss_catgy: 2.0333 (avg 1.7853),  one batch: 0.2993 s,  train time: 0.0649 min
+	Epoch Loss mean:	9.866,  finish one epoch@  2026-10-26 13:56:03.757359s , training time:  0.3333 min
+
+
+Current Result Epoch 8:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+9.3359	17.3828	27.4805	31.5430	33.5938	37.9883	41.3672	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+3.2318	3.7605	4.1105	4.1998	4.2371	4.3000	4.3372	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+4.6329	6.6293	8.6847	9.4179	9.7710	10.4855	11.0036	
+AUC@50	AUC@100	AUC@200	AUC@500	
+89.8102	89.7080	89.6543	89.6732	
+epoch: 9
+start training: 2026-10-26 13:56:06.820712
+[TRAIN]  [0/63] epoch: 9  current batch loss: 9.1586 (avg 9.1586),current batch_loss_click: 5.9809 (avg 5.9809),current batch_loss_catgy: 1.4981 (avg 1.4981),  one batch: 0.2386 s,  train time: 0.0040 min
+[TRAIN]  [13/63] epoch: 9  current batch loss: 9.9097 (avg 9.6238),current batch_loss_click: 5.9551 (avg 5.9784),current batch_loss_catgy: 1.8842 (avg 1.7275),  one batch: 0.2940 s,  train time: 0.0637 min
+[TRAIN]  [26/63] epoch: 9  current batch loss: 10.2709 (avg 9.7261),current batch_loss_click: 6.2040 (avg 6.0305),current batch_loss_catgy: 1.9476 (avg 1.7518),  one batch: 0.2927 s,  train time: 0.0634 min
+[TRAIN]  [39/63] epoch: 9  current batch loss: 9.6987 (avg 9.7720),current batch_loss_click: 5.9191 (avg 6.0360),current batch_loss_catgy: 1.8011 (avg 1.7726),  one batch: 0.2880 s,  train time: 0.0624 min
+[TRAIN]  [52/63] epoch: 9  current batch loss: 9.5620 (avg 9.7821),current batch_loss_click: 6.0244 (avg 6.0462),current batch_loss_catgy: 1.6742 (avg 1.7734),  one batch: 0.2992 s,  train time: 0.0648 min
+	Epoch Loss mean:	9.795,  finish one epoch@  2026-10-26 13:56:25.190394s , training time:  0.3061 min
+
+
+Current Result Epoch 9:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+9.2578	17.2070	27.3438	31.2305	34.1211	38.6719	42.6172	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+3.1862	3.7247	4.0765	4.1636	4.2156	4.2797	4.3232	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+4.5838	6.5772	8.6418	9.3467	9.8431	10.5804	11.1855	
+AUC@50	AUC@100	AUC@200	AUC@500	
+89.8191	89.8025	89.7331	89.7476	
+epoch: 10
+start training: 2026-10-26 13:56:28.262885
+[TRAIN]  [0/63] epoch: 10  current batch loss: 9.7461 (avg 9.7461),current batch_loss_click: 5.9987 (avg 5.9987),current batch_loss_catgy: 1.7712 (avg 1.7712),  one batch: 0.2397 s,  train time: 0.0040 min
+[TRAIN]  [13/63] epoch: 10  current batch loss: 9.1158 (avg 9.5733),current batch_loss_click: 5.6784 (avg 5.9869),current batch_loss_catgy: 1.6139 (avg 1.6968),  one batch: 0.2980 s,  train time: 0.0646 min
+[TRAIN]  [26/63] epoch: 10  current batch loss: 9.1069 (avg 9.6749),current batch_loss_click: 5.7365 (avg 5.9888),current batch_loss_catgy: 1.5766 (avg 1.7462),  one batch: 0.2978 s,  train time: 0.0645 min
+[TRAIN]  [39/63] epoch: 10  current batch loss: 9.6570 (avg 9.7202),current batch_loss_click: 5.9283 (avg 5.9872),current batch_loss_catgy: 1.7590 (avg 1.7690),  one batch: 0.2954 s,  train time: 0.0640 min
+[TRAIN]  [52/63] epoch: 10  current batch loss: 9.5341 (avg 9.7414),current batch_loss_click: 5.8662 (avg 5.9951),current batch_loss_catgy: 1.7355 (avg 1.7753),  one batch: 0.2926 s,  train time: 0.0634 min
+	Epoch Loss mean:	9.751,  finish one epoch@  2026-10-26 13:56:46.822726s , training time:  0.3093 min
+
+
+Current Result Epoch 10:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+10.1562	16.8164	27.9102	31.2500	34.7852	39.1406	43.9453	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+2.9691	3.4181	3.8247	3.8984	3.9622	4.0237	4.0768	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+4.6180	6.2849	8.5792	9.1825	9.7900	10.4962	11.2334	
+AUC@50	AUC@100	AUC@200	AUC@500	
+89.7891	89.8207	89.8856	89.9990	
+epoch: 11
+start training: 2026-10-26 13:56:49.983419
+[TRAIN]  [0/63] epoch: 11  current batch loss: 9.3657 (avg 9.3657),current batch_loss_click: 5.7725 (avg 5.7725),current batch_loss_catgy: 1.7007 (avg 1.7007),  one batch: 0.2603 s,  train time: 0.0043 min
+[TRAIN]  [13/63] epoch: 11  current batch loss: 9.8018 (avg 9.6118),current batch_loss_click: 5.7743 (avg 5.8584),current batch_loss_catgy: 1.9128 (avg 1.7776),  one batch: 0.2894 s,  train time: 0.0627 min
+[TRAIN]  [26/63] epoch: 11  current batch loss: 9.3413 (avg 9.6602),current batch_loss_click: 5.9152 (avg 5.9038),current batch_loss_catgy: 1.5952 (avg 1.7760),  one batch: 0.3042 s,  train time: 0.0659 min
+[TRAIN]  [39/63] epoch: 11  current batch loss: 9.6233 (avg 9.6317),current batch_loss_click: 5.7669 (avg 5.8914),current batch_loss_catgy: 1.8314 (avg 1.7682),  one batch: 0.3000 s,  train time: 0.0650 min
+[TRAIN]  [52/63] epoch: 11  current batch loss: 9.9544 (avg 9.6757),current batch_loss_click: 5.9438 (avg 5.9182),current batch_loss_catgy: 1.9057 (avg 1.7770),  one batch: 0.3093 s,  train time: 0.0670 min
+	Epoch Loss mean:	9.679,  finish one epoch@  2026-10-26 13:57:09.168236s , training time:  0.3197 min
+
+
+Current Result Epoch 11:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+9.7461	16.9336	28.3008	31.2891	34.0234	39.4531	43.6719	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+3.4609	3.9474	4.3646	4.4314	4.4810	4.5586	4.6052	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+4.9088	6.7115	9.0635	9.6052	10.0757	10.9585	11.6057	
+AUC@50	AUC@100	AUC@200	AUC@500	
+89.9844	90.0547	90.0377	90.0573	
+epoch: 12
+start training: 2026-10-26 13:57:12.505093
+[TRAIN]  [0/63] epoch: 12  current batch loss: 9.1439 (avg 9.1439),current batch_loss_click: 5.6879 (avg 5.6879),current batch_loss_catgy: 1.6319 (avg 1.6319),  one batch: 0.2939 s,  train time: 0.0049 min
+[TRAIN]  [13/63] epoch: 12  current batch loss: 9.6911 (avg 9.2918),current batch_loss_click: 5.7845 (avg 5.7567),current batch_loss_catgy: 1.8267 (avg 1.6654),  one batch: 0.3127 s,  train time: 0.0678 min
+[TRAIN]  [26/63] epoch: 12  current batch loss: 9.8987 (avg 9.4947),current batch_loss_click: 5.8885 (avg 5.8122),current batch_loss_catgy: 1.8927 (avg 1.7342),  one batch: 0.3265 s,  train time: 0.0707 min
+[TRAIN]  [39/63] epoch: 12  current batch loss: 9.7723 (avg 9.5384),current batch_loss_click: 5.9667 (avg 5.8321),current batch_loss_catgy: 1.7944 (avg 1.7465),  one batch: 0.3067 s,  train time: 0.0665 min
+[TRAIN]  [52/63] epoch: 12  current batch loss: 9.7342 (avg 9.5927),current batch_loss_click: 5.9494 (avg 5.8612),current batch_loss_catgy: 1.7913 (avg 1.7594),  one batch: 0.3277 s,  train time: 0.0710 min
+	Epoch Loss mean:	9.619,  finish one epoch@  2026-10-26 13:57:34.007662s , training time:  0.3584 min
+
+
+Current Result Epoch 12:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+9.6680	17.5781	29.5703	32.3047	34.3750	40.4883	44.7461	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+3.3171	3.8413	4.2721	4.3319	4.3691	4.4569	4.5038	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+4.7970	6.7659	9.2324	9.7254	10.0807	11.0758	11.7286	
+AUC@50	AUC@100	AUC@200	AUC@500	
+90.1164	90.2164	90.1633	90.1752	
+epoch: 13
+start training: 2026-10-26 13:57:38.567422
+[TRAIN]  [0/63] epoch: 13  current batch loss: 9.4402 (avg 9.4402),current batch_loss_click: 5.7020 (avg 5.7020),current batch_loss_catgy: 1.7648 (avg 1.7648),  one batch: 0.6954 s,  train time: 0.0116 min
+[TRAIN]  [13/63] epoch: 13  current batch loss: 9.2620 (avg 9.4409),current batch_loss_click: 5.6874 (avg 5.7797),current batch_loss_catgy: 1.6764 (avg 1.7231),  one batch: 0.4947 s,  train time: 0.1072 min
+[TRAIN]  [26/63] epoch: 13  current batch loss: 9.6381 (avg 9.4816),current batch_loss_click: 5.9257 (avg 5.8060),current batch_loss_catgy: 1.7633 (avg 1.7283),  one batch: 0.4188 s,  train time: 0.0908 min
+[TRAIN]  [39/63] epoch: 13  current batch loss: 10.1105 (avg 9.4812),current batch_loss_click: 6.0529 (avg 5.7960),current batch_loss_catgy: 1.9147 (avg 1.7327),  one batch: 0.3549 s,  train time: 0.0769 min
+[TRAIN]  [52/63] epoch: 13  current batch loss: 9.8255 (avg 9.5223),current batch_loss_click: 5.9213 (avg 5.8085),current batch_loss_catgy: 1.8373 (avg 1.7468),  one batch: 0.3415 s,  train time: 0.0740 min
+	Epoch Loss mean:	9.547,  finish one epoch@  2026-10-26 13:58:03.453722s , training time:  0.4148 min
+
+
+Current Result Epoch 13:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+9.8438	18.4180	29.3945	32.0312	34.1797	40.8008	44.3750	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+3.0570	3.6408	4.0309	4.0890	4.1272	4.2231	4.2623	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+4.6319	6.7860	9.0362	9.5124	9.8802	10.9598	11.5074	
+AUC@50	AUC@100	AUC@200	AUC@500	
+90.3770	90.1988	90.2216	90.1362	
+epoch: 14
+start training: 2026-10-26 13:58:06.604735
+[TRAIN]  [0/63] epoch: 14  current batch loss: 9.4758 (avg 9.4758),current batch_loss_click: 5.5701 (avg 5.5701),current batch_loss_catgy: 1.8495 (avg 1.8495),  one batch: 0.3306 s,  train time: 0.0055 min
+[TRAIN]  [13/63] epoch: 14  current batch loss: 9.5186 (avg 9.4986),current batch_loss_click: 5.6909 (avg 5.7355),current batch_loss_catgy: 1.7816 (avg 1.7666),  one batch: 0.3115 s,  train time: 0.0675 min
+[TRAIN]  [26/63] epoch: 14  current batch loss: 9.3679 (avg 9.4666),current batch_loss_click: 5.7529 (avg 5.7260),current batch_loss_catgy: 1.6937 (avg 1.7546),  one batch: 0.3344 s,  train time: 0.0724 min
+[TRAIN]  [39/63] epoch: 14  current batch loss: 9.4782 (avg 9.4811),current batch_loss_click: 5.6770 (avg 5.7355),current batch_loss_catgy: 1.7994 (avg 1.7566),  one batch: 0.3158 s,  train time: 0.0684 min
+[TRAIN]  [52/63] epoch: 14  current batch loss: 9.5793 (avg 9.4731),current batch_loss_click: 5.7056 (avg 5.7397),current batch_loss_catgy: 1.8198 (avg 1.7509),  one batch: 0.3119 s,  train time: 0.0676 min
+	Epoch Loss mean:	9.492,  finish one epoch@  2026-10-26 13:58:26.790186s , training time:  0.3364 min
+
+
+Current Result Epoch 14:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+10.2344	18.4766	29.4336	32.1289	35.1758	40.9180	44.8828	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+3.0800	3.6292	4.0188	4.0798	4.1356	4.2181	4.2621	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+4.7319	6.7881	9.0355	9.5258	10.0512	10.9860	11.5948	
+AUC@50	AUC@100	AUC@200	AUC@500	
+90.2465	90.1992	90.2451	90.3120	
+-------------------------------------------------------
+Run time: 5.7598702788352965min

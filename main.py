@@ -15,8 +15,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--seed', type=int, default=2024, help='seed')
     parser.add_argument('--gpu_id', type=int, default=0, help='gpu id')
-    parser.add_argument('--plus', type=bool, default=True, help='enhenced model')
-    parser.add_argument('--dataset', type=str, default='tmall', help='dataset name')
+    parser.add_argument('--plus', action='store_true', default=True, help='enhenced model')
+    parser.add_argument('--dataset', type=str, default='movielens', help='dataset name')
     parser.add_argument('--log_path', type=str, default='output.txt', help='log path')
     parser.add_argument('--batch_size', type=int, default=128, help='input batch size')
     parser.add_argument('--epoch', type=int, default=50, help='the number of epochs to train for')
@@ -64,11 +64,11 @@ def main():
     train_data = RsData(log_path, train_data)
     test_data = RsData(log_path, test_data)
     valid_data = RsData(log_path, valid_data)
-    train_loader = DataLoader(train_data, batch_size=opt.batch_size, num_workers=16, shuffle=True,
+    train_loader = DataLoader(train_data, batch_size=opt.batch_size, num_workers=0, shuffle=True,
                               collate_fn=sess_collate_fn)
-    test_loader = DataLoader(test_data, batch_size=opt.batch_size, num_workers=16, shuffle=True,
+    test_loader = DataLoader(test_data, batch_size=opt.batch_size, num_workers=0, shuffle=True,
                              collate_fn=sess_collate_fn)
-    valid_loader = DataLoader(valid_data, batch_size=opt.batch_size, num_workers=16, shuffle=True,
+    valid_loader = DataLoader(valid_data, batch_size=opt.batch_size, num_workers=0, shuffle=True,
                              collate_fn=sess_collate_fn)
     
     try:

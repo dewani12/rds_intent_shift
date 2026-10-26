@@ -1,0 +1,63 @@
+************ seed ***********: 2024
+----------------------------------- Start Loading data... @ 2026-10-26 13:51:17.185879 -----------------------------------
+---------------------------------------------Finish Loading data... @ 2026-10-26 13:51:17.195375s ---------------------------------------------
+opt.dataset:  movielens_small
+epoch: 0
+start training: 2026-10-26 13:51:18.789427
+[TRAIN]  [0/63] epoch: 0  current batch loss: 15.5411 (avg 15.5411),current batch_loss_click: 8.0217 (avg 8.0217),current batch_loss_catgy: 3.7410 (avg 3.7410),  one batch: 0.1934 s,  train time: 0.0032 min
+[TRAIN]  [13/63] epoch: 0  current batch loss: 11.9817 (avg 13.2061),current batch_loss_click: 8.0004 (avg 8.0072),current batch_loss_catgy: 1.9742 (avg 2.5821),  one batch: 0.2177 s,  train time: 0.0472 min
+[TRAIN]  [26/63] epoch: 0  current batch loss: 12.3011 (avg 12.6824),current batch_loss_click: 7.8895 (avg 7.9748),current batch_loss_catgy: 2.1871 (avg 2.3373),  one batch: 0.2388 s,  train time: 0.0517 min
+[TRAIN]  [39/63] epoch: 0  current batch loss: 11.5831 (avg 12.4829),current batch_loss_click: 7.6408 (avg 7.9128),current batch_loss_catgy: 1.9363 (avg 2.2660),  one batch: 0.3014 s,  train time: 0.0653 min
+[TRAIN]  [52/63] epoch: 0  current batch loss: 12.0440 (avg 12.2401),current batch_loss_click: 7.2961 (avg 7.7811),current batch_loss_catgy: 2.2825 (avg 2.2007),  one batch: 0.3222 s,  train time: 0.0698 min
+	Epoch Loss mean:	12.082,  finish one epoch@  2026-10-26 13:51:36.138538s , training time:  0.2891 min
+
+
+Current Result Epoch 0:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+5.9180	11.3477	19.8438	22.1484	24.9414	28.7109	32.8320	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+1.6575	2.0401	2.3331	2.3839	2.4349	2.4890	2.5349	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+2.6455	4.0257	5.7531	6.1695	6.6507	7.2643	7.8977	
+AUC@50	AUC@100	AUC@200	AUC@500	
+86.7477	86.7414	86.7806	86.7600	
+epoch: 1
+start training: 2026-10-26 13:51:39.339455
+[TRAIN]  [0/63] epoch: 1  current batch loss: 10.7787 (avg 10.7787),current batch_loss_click: 6.7924 (avg 6.7924),current batch_loss_catgy: 1.8711 (avg 1.8711),  one batch: 0.2929 s,  train time: 0.0049 min
+[TRAIN]  [13/63] epoch: 1  current batch loss: 10.5773 (avg 10.8687),current batch_loss_click: 6.5592 (avg 6.6643),current batch_loss_catgy: 1.9032 (avg 1.9837),  one batch: 0.2832 s,  train time: 0.0614 min
+[TRAIN]  [26/63] epoch: 1  current batch loss: 10.8134 (avg 10.7680),current batch_loss_click: 6.8221 (avg 6.6318),current batch_loss_catgy: 1.8932 (avg 1.9573),  one batch: 0.2931 s,  train time: 0.0635 min
+[TRAIN]  [39/63] epoch: 1  current batch loss: 11.1663 (avg 10.7768),current batch_loss_click: 6.6967 (avg 6.6242),current batch_loss_catgy: 2.1429 (avg 1.9695),  one batch: 0.2907 s,  train time: 0.0630 min
+[TRAIN]  [52/63] epoch: 1  current batch loss: 10.8337 (avg 10.7759),current batch_loss_click: 6.5253 (avg 6.6377),current batch_loss_catgy: 2.0649 (avg 1.9666),  one batch: 0.2966 s,  train time: 0.0643 min
+	Epoch Loss mean:	10.764,  finish one epoch@  2026-10-26 13:51:57.995258s , training time:  0.3109 min
+
+
+Current Result Epoch 1:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+7.8125	13.6719	22.4609	25.4688	27.7344	32.3438	37.4805	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+2.2487	2.6494	2.9609	3.0282	3.0682	3.1334	3.1899	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+3.5319	5.0066	6.8071	7.3525	7.7398	8.4871	9.2746	
+AUC@50	AUC@100	AUC@200	AUC@500	
+88.1703	88.0980	88.2048	88.1289	
+epoch: 2
+start training: 2026-10-26 13:52:01.380677
+[TRAIN]  [0/63] epoch: 2  current batch loss: 10.8710 (avg 10.8710),current batch_loss_click: 6.4807 (avg 6.4807),current batch_loss_catgy: 2.1023 (avg 2.1023),  one batch: 0.2409 s,  train time: 0.0040 min
+[TRAIN]  [13/63] epoch: 2  current batch loss: 10.5352 (avg 10.4778),current batch_loss_click: 6.4429 (avg 6.4475),current batch_loss_catgy: 1.9396 (avg 1.9176),  one batch: 0.2938 s,  train time: 0.0637 min
+[TRAIN]  [26/63] epoch: 2  current batch loss: 10.6781 (avg 10.4689),current batch_loss_click: 6.5207 (avg 6.4478),current batch_loss_catgy: 1.9970 (avg 1.9111),  one batch: 0.3019 s,  train time: 0.0654 min
+[TRAIN]  [39/63] epoch: 2  current batch loss: 10.5735 (avg 10.4723),current batch_loss_click: 6.5311 (avg 6.4593),current batch_loss_catgy: 1.9266 (avg 1.9105),  one batch: 0.3104 s,  train time: 0.0673 min
+[TRAIN]  [52/63] epoch: 2  current batch loss: 9.8527 (avg 10.4539),current batch_loss_click: 6.1266 (avg 6.4583),current batch_loss_catgy: 1.7677 (avg 1.9041),  one batch: 0.3044 s,  train time: 0.0660 min
+	Epoch Loss mean:	10.425,  finish one epoch@  2026-10-26 13:52:20.451331s , training time:  0.3178 min
+
+
+Current Result Epoch 2:
+Recall@10	Recall@20	Recall@40	Recall@50	Recall@60	Recall@80	Recall@100	
+7.8711	14.4336	22.6172	26.1328	27.9883	33.5742	38.3789	
+MRR@10	MRR@20	MRR@40	MRR@50	MRR@60	MRR@80	MRR@100	
+2.4137	2.8643	3.1584	3.2363	3.2711	3.3512	3.4047	
+NDCG@10	NDCG@20	NDCG@40	NDCG@50	NDCG@60	NDCG@80	NDCG@100	
+3.6757	5.3286	7.0113	7.6472	7.9691	8.8778	9.6161	
+AUC@50	AUC@100	AUC@200	AUC@500	
+87.9793	88.1469	88.1795	88.2891	
+-------------------------------------------------------
+Run time: 1.0805116693178813min
